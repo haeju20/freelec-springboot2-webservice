@@ -4,24 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="330ecbad-b4f5-4ff8-b471-ecda1a48246f" name="Changes" comment="0724 테스트 코드 작성 ~p.77">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/jojoldu/book/springboot/domain/posts/BaseTimeEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/jojoldu/book/springboot/domain/posts/Posts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/jojoldu/book/springboot/domain/posts/PostsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/jojoldu/book/springboot/domain/posts/PostsRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/jojoldu/book/springboot/service/posts/PostsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/jojoldu/book/springboot/web/PostsApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/jojoldu/book/springboot/web/PostsApiControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/jojoldu/book/springboot/web/dto/PostsResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/jojoldu/book/springboot/web/dto/PostsSaveRequestDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/jojoldu/book/springboot/web/dto/PostsUpdateRequestDto.java" afterDir="false" />
+    <list default="true" id="330ecbad-b4f5-4ff8-b471-ecda1a48246f" name="Changes" comment="0731 3장 ~p.123&#10;3.3 JPA 테스트 코드 작성&#10;3.4 등록/수정/조회 API&#10;3.5 JPA Auditing - 생성/수정시간">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/app/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/layout/footer.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/layout/header.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/post-update.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/posts-save.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jojoldu/book/springboot/web/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jojoldu/book/springboot/web/IndexControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jojoldu/book/springboot/web/dto/PostsListResponseDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/jojoldu/book/springboot/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jojoldu/book/springboot/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jojoldu/book/springboot/HelloControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jojoldu/book/springboot/domain/posts/PostsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jojoldu/book/springboot/domain/posts/PostsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jojoldu/book/springboot/service/posts/PostsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jojoldu/book/springboot/service/posts/PostsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jojoldu/book/springboot/web/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jojoldu/book/springboot/web/PostsApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jojoldu/book/springboot/web/PostsApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jojoldu/book/springboot/web/dto/HelloResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jojoldu/book/springboot/web/dto/HelloResponseDtoTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,22 +94,61 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.PostsRepositoryTest.BaseTimeEntity_등록">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jojoldu.book.springboot.Application" />
-      <module name="freelec-springboot2-webservice.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jojoldu.book.springboot.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.IndexControllerTest.메인페이지_로딩 (1)">
+    <configuration name="IndexControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.jojoldu.book.springboot.web.IndexControllerTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="IndexControllerTest.메인페이지_로딩 (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.jojoldu.book.springboot.web.IndexControllerTest.메인페이지_로딩&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="PostsApiControllerTest.Posts_등록된다" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -179,7 +219,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PostsRepositoryTest.게시글저장_불러오기" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Tests in 'freelec-springboot2-webservice.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -191,8 +231,6 @@
         <option name="taskNames">
           <list>
             <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.jojoldu.book.springboot.domain.posts.PostsRepositoryTest.게시글저장_불러오기&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -204,11 +242,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.PostsRepositoryTest.BaseTimeEntity_등록" />
-        <item itemvalue="Application.Application" />
-        <item itemvalue="Gradle.PostsApiControllerTest.Posts_수정된다" />
+        <item itemvalue="Gradle.IndexControllerTest.메인페이지_로딩 (1)" />
+        <item itemvalue="Gradle.IndexControllerTest" />
         <item itemvalue="Gradle.PostsApiControllerTest.Posts_등록된다" />
-        <item itemvalue="Gradle.PostsRepositoryTest.게시글저장_불러오기" />
+        <item itemvalue="Gradle.Tests in 'freelec-springboot2-webservice.test'" />
+        <item itemvalue="Gradle.PostsRepositoryTest.BaseTimeEntity_등록" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658652083808</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="0731 3장 ~p.123&#10;3.3 JPA 테스트 코드 작성&#10;3.4 등록/수정/조회 API&#10;3.5 JPA Auditing - 생성/수정시간">
+      <created>1659244161851</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1659244161851</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -260,6 +305,7 @@
     <MESSAGE value="0724 spring ~p.42" />
     <MESSAGE value="gitignore 등록" />
     <MESSAGE value="0724 테스트 코드 작성 ~p.77" />
-    <option name="LAST_COMMIT_MESSAGE" value="0724 테스트 코드 작성 ~p.77" />
+    <MESSAGE value="0731 3장 ~p.123&#10;3.3 JPA 테스트 코드 작성&#10;3.4 등록/수정/조회 API&#10;3.5 JPA Auditing - 생성/수정시간" />
+    <option name="LAST_COMMIT_MESSAGE" value="0731 3장 ~p.123&#10;3.3 JPA 테스트 코드 작성&#10;3.4 등록/수정/조회 API&#10;3.5 JPA Auditing - 생성/수정시간" />
   </component>
 </project>
