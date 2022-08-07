@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="330ecbad-b4f5-4ff8-b471-ecda1a48246f" name="Changes" comment="0807 3장 IndexControllerTest 수정">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-real.properties" afterDir="false" />
+    <list default="true" id="330ecbad-b4f5-4ff8-b471-ecda1a48246f" name="Changes" comment="0807 8장 RDS환경 profile 설정">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -272,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659869369359</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="0807 8장 RDS환경 profile 설정">
+      <created>1659872114764</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1659872114764</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -301,7 +306,8 @@
     <MESSAGE value="0731 5장 ~p.223&#10;5.2-3 구글 로그인&#10;5.4 어노테이션&#10;5.5 db에 세션 저장&#10;5.6 네이버 로그인&#10;5.7 기존 테스트에 시큐리티 적용" />
     <MESSAGE value="0807 3장 &#10;index.js scr -&gt; src 오타 수정" />
     <MESSAGE value="0807 3장 IndexControllerTest 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="0807 3장 IndexControllerTest 수정" />
+    <MESSAGE value="0807 8장 RDS환경 profile 설정" />
+    <option name="LAST_COMMIT_MESSAGE" value="0807 8장 RDS환경 profile 설정" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
